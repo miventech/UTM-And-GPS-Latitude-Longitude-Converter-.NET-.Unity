@@ -1,17 +1,17 @@
 # UTM And GPS Latitude Longitude Converter .NET .Unity
 This class or library is responsible for converting UTM units to GPS (Latitude and Longitude) and viseverza, for C#, .Net and C#
 
-# UTMToLatLon(double utmX, double utmY, string utmZone, out double latitude, out double longitude)
+#Functions
 
-# ConvertLatLonToUtm(double latitude, double longitude , ref double utmX, ref double utmY, ref int ZoneNumber , ref string ZoneLetter)
+- UTMToLatLon(double utmX, double utmY, string utmZone, out double latitude, out double longitude)
 
-# bool CheckIsNorthHemisphere(string letterZone)
+- ConvertLatLonToUtm(double latitude, double longitude , ref double utmX, ref double utmY, ref int ZoneNumber , ref string ZoneLetter)
 
-# string getUtmLetterDesignator(double latitude)
+- bool CheckIsNorthHemisphere(string letterZone)
 
-# setEllipsoid(string name ,  ref double a ,ref double eccSquared)
+- string getUtmLetterDesignator(double latitude)
 
-
+- setEllipsoid(string name ,  ref double a ,ref double eccSquared)
 
 
 * Alternative Convertion
