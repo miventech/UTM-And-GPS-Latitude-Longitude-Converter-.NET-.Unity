@@ -14,7 +14,7 @@ This class or library is responsible for converting UTM units to GPS (Latitude a
 - setEllipsoid(string name ,  ref double a ,ref double eccSquared)
 
 
-* Alternative Convertion
-# void convertUtmToLatLng(double UTMEasting, double UTMNorthing, int UTMZoneNumber, char UTMZoneLetter) 
+# Alternative Convertion
+- void convertUtmToLatLng(double UTMEasting, double UTMNorthing, int UTMZoneNumber, char UTMZoneLetter) 
 
 
